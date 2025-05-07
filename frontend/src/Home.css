@@ -1,0 +1,105 @@
+/* Hero section */
+.hero-box {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #4b0f12, #8b0000); /* dark maroon gradient */
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #fff;
+}
+.home-title span {
+  color: #ffb3b3; /* light pink highlight */
+}
+.home-subtitle {
+  font-size: 1.5rem;
+  color: #f0eaea; /* soft white text */
+}
+
+/* Category Navbar */
+.category-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 2rem 0;
+}
+.category-button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #8b0000; /* maroon */
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.category-button:hover {
+  transform: scale(1.1);
+}
+.category-button.active {
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+/* Book Display Section */
+.books-section {
+  padding: 2rem;
+  background-color: #f3f0f0; /* light background */
+}
+.books-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #4b0f12;
+}
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+.book-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.book-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.book-card h4 {
+  margin: 0.8rem 0 0.5rem;
+  font-size: 1rem;
+  color: #4b0f12;
+}
+.book-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background-color: #4b0f12; /* dark maroon */
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.footer-content h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.footer-content p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
